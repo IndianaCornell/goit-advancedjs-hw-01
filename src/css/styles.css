@@ -37,3 +37,62 @@ ul {
   text-align: center;
   padding: 32px;
 }
+
+.feedback-form {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #333;
+}
+
+.feedback-form input[type='email'],
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.feedback-form input[type='email']:focus,
+.feedback-form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.feedback-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.2s;
+}
+
+.feedback-form button:hover {
+  background-color: #0056b3;
+}
+
+.feedback-form textarea {
+  resize: none;
+}
+
+.feedback-form button {
+  margin-top: 10px;
+}
