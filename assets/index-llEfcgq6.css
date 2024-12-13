@@ -1,0 +1,1 @@
+body{max-width:1176px;margin:0 auto;padding:24px}ul{list-style:none;margin:0;padding:0}.gallery{display:flex;flex-wrap:wrap;gap:24px}.gallery_image{display:block;width:360px;height:200px;transition:transform .3s ease}.gallery_image:hover{transform:scale(1.03)}.gallery{margin-bottom:100px}.feedback-form{max-width:600px;margin:0 auto;text-align:center;padding:32px}
